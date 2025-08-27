@@ -1,0 +1,12 @@
+a.button {
+    height: 25%;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    font-size: 500%;
+}
