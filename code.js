@@ -43,6 +43,11 @@ function problem2() {
     }
 }
 
+function heightANDwidth() {
+    alert('vidden er: ' + window.innerWidth); alert('Høyden er: ' + window.innerHeight);
+}
+
+
 window.onload = function() {
     const rannum = Math.random();
     
