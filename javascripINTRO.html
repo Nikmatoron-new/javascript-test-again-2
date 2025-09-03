@@ -14,6 +14,8 @@ alert ( "utvikling")
 </script>
 <script type="text/javascript" src="code.js"></script>
 
+
+<div>
 <button>
      <input id="clickMe" type="button" value="Problem #1" onclick="problem1();" />
     <script>
@@ -21,10 +23,96 @@ alert ( "utvikling")
 
     </script>
 </button>
+</div>
 
 
+
+<div>
+<button>
+     <input id="clickMe2" type="button" value="Problem #2" onclick="problem2();" />
+    <script>
+       
+
+    </script>
+</button>
+</div>
+
+
+<div>
     <a href="https://google.com" class="button">NEXT</a>
+</div>
 
+
+<div>
+<p>
+    Ifølge SNL
+    "Streng er en rekke av tegn som inneholder tekstlige data, i motsetning til numeriske data (tall)."
+    <a href="https://snl.no/streng_-_IT"> SNL </a>
+</p>
+</div>
+
+
+
+<div>
+<h1 id="H1.1" >orginal tekst, ikke endre meg</h1>
     
+    <button onclick="ChangeText1()">IKKE TRYKK</button>
+
+    <script>
+        function ChangeText1() {
+            document.getElementById("H1.1").innerHTML = "<h1>HVORFOR NÅ ER ORGINALEN ER VEKKE!</h1>";
+        }
+    </script>
+</div>
+
+
+
+<div>
+    <h3>Jeg lagde denne :3 </h3>
+<img width="300" height="300" id="img1" src="323 – Kopi.smaller.png" alt="Var ikke her">
+    <button onclick="toggle()" id="button1">☐</button>
+
+    <script>
+        let på = false;
+         
+        function toggle() {
+            const button1 = document.getElementById("button1");
+            
+            if (på) {
+                button1.innerHTML = "☐";
+                img1.src = "goobANDavaliV4.5.smaller.png";
+                img1.width = "300";
+                img1.height = "300";
+                på = false;
+            } else {
+                button1.innerHTML = "☑";
+                img1.width = "150";
+                img1.height = "250";
+                img1.src = "323 – Kopi.smaller.png";
+                
+                på = true;
+            }
+        }
+    </script>
+</div>
+
+<div>
+    <h5>Her kastet nettsiden mynten!</h5>
+     <img width="200" height="200" id="COIN" src="kron.jpg" alt="Mynt">
+</div>
+
+
+<div>
+    <h1> </h1>
+    <h5>Nå skal du hive mynten</h5>
+    <button id="COINFLIP" onclick="COINFLIP()">kast mynten! (under teksten)</button>
+    <div>
+    <img width="250" height="250" id="COINFLIPimg" onclick="COINFLIP()" src="gameeeeee.jpg" alt="coinssss">
+    </div>
+</div>
+
+
+
 </body>
+
 </html>
