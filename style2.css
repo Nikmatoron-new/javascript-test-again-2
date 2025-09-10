@@ -1,0 +1,38 @@
+input.ClickMeQUEST {
+opacity: 45px;
+
+}
+
+input.QUEST {
+opacity: 45px;
+
+}
+
+
+
+button.QUEST {
+color: blue;
+text-decoration-style: dotted;
+
+
+}
+
+
+
+
+a.button {
+    size: 75px;
+    border: 60px;
+    text-decoration: double; border-left: 31px solid #637;
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 55px;
+    margin-left: 60px;
+
+}
+
+
+h1.LINEBREAK {
+
+    opacity: 0%;
+}

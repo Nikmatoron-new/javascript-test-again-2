@@ -6,9 +6,9 @@
     let alder = parseInt(alderStreng) 
 
     // Nå har vi alder som et tall og kan gjøre tall-ting med den: 
-    if( alder < 13 )
-        alert('Du er ikke tenåring ennå')
-    else( alder > 20)
+    if( alder < 20 )
+        alert('Du er ikke i 20-årene enda')
+    if( alder > 20)
         alert('Du er voksen')
 
 
@@ -32,11 +32,11 @@ function problem2() {
     var counter = 0   
     var total = 0    
 
-    let by = prompt("Hva er 2026 minus 2025?") 
+    let by1 = prompt("Hva er 2026 minus 2025?") 
     
-    let answer = parseInt(by);
+    let answer1 = parseInt(by1);
 
-    if(answer == 1) {
+    if(answer1 == 1) {
         alert('Interessant!')    
     } else {
         alert('feil')
