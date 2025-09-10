@@ -8,7 +8,7 @@ function questionare() {
             FNklimamål();
             cpu();
             
-            showFinalResult();
+            FinalResult();
         }
 
 
